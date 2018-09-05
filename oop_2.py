@@ -2,14 +2,14 @@ print('\n')
 
 class Employee:
 
-	raise_amount = 1.04		# CLASS VARIABLES
-	num_of_ems   = 0 		# CLASS VARIABLES
+	raise_amount = 1.04		# CLASS VARIABLE
+	num_of_ems   = 0 		# CLASS VARIABLE
 
 	def __init__(self, first, last, pay):
-		self.first = first								# Instantce
-		self.last = last								# Instantce
-		self.email = first + '.' + last + '@email.com'	# Instantce
-		self.pay = pay									# Instantce
+		self.first = first								# Instance Variable
+		self.last = last								# Instance Variable
+		self.email = first + '.' + last + '@email.com'	# Instance Variable
+		self.pay = pay									# Instance Variable
 
 		Employee.num_of_ems += 1
 
